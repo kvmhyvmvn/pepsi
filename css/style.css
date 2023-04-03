@@ -1,17 +1,14 @@
 .logo {
   width: 100px;
   height: 110px;
-  margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom: 40px;
+  margin: 50px auto;
 }
 .menu {
   background-color: #005891;
   text-align: center;
   height: 50px;
   line-height: 50px;
-  margin-bottom: 40px;
-  color: white;
+  margin: 50px 0;
 }
 .menu a {
   color: white;
@@ -38,7 +35,7 @@
 .title p {
   font-size: 16px;
   margin: 10px 0;
-  color: #555555;
+  color: #555;
 }
 .clips {
   width: 650px;
@@ -46,7 +43,7 @@
   font-size: 0;
   display: flex;
 }
-.clip:nth-child(1) {
+.clip:nth-child(2) {
   margin-right: 50px;
 }
 .clip h2 {
@@ -81,10 +78,10 @@
 .contact p {
   font-weight: bold;
   font-size: 30px;
-  color: #009891;
+  color: #005891;
 }
 hr {
-  margin: 30px 0;
+  margin: 50px 0;
   height: 1px;
   background-color: #005891;
   border: 0;
@@ -102,13 +99,14 @@ hr {
 }
 @media screen and (max-width: 360px) {
   .menu {
+    height: auto;
     margin: 30px 0 20px 0;
   }
   .hero_img {
     width: 100%;
   }
   .hero_img img {
-    height: auto;
+    width: 100%;
   }
   .hero_img {
     height: auto;
