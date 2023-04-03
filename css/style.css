@@ -1,0 +1,102 @@
+.logo {
+  width: 100px;
+  height: 110px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.menu {
+  background-color: #005891;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  margin-bottom: 40px;
+  color: white;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.menu a:hover {
+  color: #fcff00;
+}
+.hero_image {
+  width: 800px;
+  height: 500px;
+  margin: 0 auto;
+}
+.title {
+  text-align: center;
+  margin: 50px 0;
+}
+.title h1 {
+  font-size: 22px;
+}
+.title p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #555555;
+}
+.clips {
+  width: 650px;
+  margin: 0 auto;
+  font-size: 0;
+  display: flex;
+}
+.clip:nth-child(1) {
+  margin-right: 50px;
+}
+.clip h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.clip h2,
+.clip p {
+  font-size: 16px;
+  margin: 20px 0;
+  text-align: center;
+}
+.social_media {
+  text-align: center;
+  margin: 30px 0;
+}
+.social_media a {
+  text-decoration: none;
+  margin-right: 15px;
+}
+.social_media a:nth-child(4) {
+  margin-right: 0;
+}
+.contact {
+  text-align: center;
+}
+.contact h2 {
+  font-size: 15px;
+  color: #005891;
+  text-transform: uppercase; /* 텍스트 변형: 대문자로 */
+}
+.contact p {
+  font-weight: bold;
+  font-size: 30px;
+  color: #009891;
+}
+hr {
+  margin: 30px 0;
+  height: 1px;
+  background-color: #005891;
+  border: 0;
+}
+.info {
+  text-align: center;
+}
+.info p:nth-child(1) {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.info p:nth-child(2) {
+  text-transform: uppercase;
+  font-size: 11px;
+}
