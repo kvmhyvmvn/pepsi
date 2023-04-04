@@ -39,6 +39,7 @@
 }
 .clips {
   width: 650px;
+  min-height: 300px;
   margin: 0 auto;
   font-size: 0;
   display: flex;
@@ -55,6 +56,15 @@
   font-size: 16px;
   margin: 20px 0;
   text-align: center;
+}
+.clip a {
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  background-color: gray;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin: 0 auto;
 }
 .social_media {
   text-align: center;
@@ -114,8 +124,21 @@ hr {
     max-width: 300px;
     flex-direction: column;
   }
+  .clip {
+    min-height: 300px;
+  }
   .clip:nth-child(2) {
     margin-left: 0;
+  }
+  .clip a {
+    display: block;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .clip a:hover {
+    font-size: 14px;
+    background-color: #005891;
   }
   hr {
     margin: 30px 0 0 0;
